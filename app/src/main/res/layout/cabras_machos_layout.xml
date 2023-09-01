@@ -24,6 +24,43 @@
         android:clickable="true"
         android:focusable="true">
 
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="210dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cabra" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O cabra mais macho do mundo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venha enfrentar o maior inimigo dos seres humanos" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_share" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_favorite" />
+
+
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
